@@ -5,6 +5,11 @@
   "author": "Pranav Mangal",
   "version": "1.0.0",
   "homepage_url": "https://github.com/pranavmangal/firefox-open-adjacent-new-tab",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "open-adjacent-new-tab@pranavmangal"
+    }
+  },
   "background": {
     "scripts": ["worker.js"]
   },
