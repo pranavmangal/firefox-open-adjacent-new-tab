@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Open Adjacent New Tab",
+  "description": "Opens a new tab adjacent to the current tab",
+  "author": "Pranav Mangal",
+  "version": "1.0.0",
+  "homepage_url": "https://github.com/pranavmangal/firefox-open-adjacent-new-tab",
+  "background": {
+    "scripts": ["worker.js"]
+  },
+  "commands": {
+    "open-adjacent-new-tab": {
+      "suggested_key": {
+        "default": "Ctrl+Alt+T"
+      },
+      "description": "Open a new tab adjacent to the current tab"
+    }
+  },
+  "permissions": ["tabs"]
+}
