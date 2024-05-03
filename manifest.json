@@ -3,7 +3,7 @@
   "name": "Open Adjacent New Tab",
   "description": "Opens a new tab adjacent to the current tab",
   "author": "Pranav Mangal",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "homepage_url": "https://github.com/pranavmangal/firefox-open-adjacent-new-tab",
   "browser_specific_settings": {
     "gecko": {
