@@ -7,6 +7,9 @@ This can be customized via Manage Addons -> Manage Extention Shortcuts.
 
 Alternatively, you can click the extension icon to open an adjacent new tab.
 
+If the current tab is in a tab group, the new tab is added to the same group (Firefox 138+).  
+Closing the new tab takes you back to the tab it was opened from.
+
 <!-- Firefox badge  -->
 <a href="https://addons.mozilla.org/en-GB/firefox/addon/open-adjacent-new-tab">
     <img src="icons/firefox-get-addon.svg" width="200" alt="Get addon for Firefox"> 
